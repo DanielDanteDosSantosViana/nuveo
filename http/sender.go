@@ -25,7 +25,6 @@ func Send(path string) (*http.Response, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
 		return resp, ErrorBadRequest
 	}
