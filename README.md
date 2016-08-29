@@ -1,11 +1,16 @@
 # Robot Nuveo
 [![Build Status](https://api.travis-ci.org/DanielDanteDosSantosViana/nuveo.svg)](https://api.travis-ci.org/DanielDanteDosSantosViana/nuveo.svg?branch=master)
 
+# Instalação
+```
+   go install ../nuveo/
+```
+
 # Execução
 
 Para utilizar o Robot Nuveo é necessário passar em linha de comando apenas 1 argumento que é a URL de destino:
 ```
-    go nuveo [url]
+    nuveo [url]
 ```
     
 # Teste
